@@ -1,0 +1,17 @@
+[ {
+  "id" : "root/compile",
+  "compilerVersion" : "0.24.0-RC1",
+  "compilerArguments" : [ ],
+  "sourceDirectories" : [ "/Users/trival/projects/personal/dotty-art/src/main/scala-0.24", "/Users/trival/projects/personal/dotty-art/src/main/scala", "/Users/trival/projects/personal/dotty-art/src/main/java", "/Users/trival/projects/personal/dotty-art/target/scala-0.24/src_managed/main" ],
+  "dependencyClasspath" : [ "/Users/trival/projects/personal/dotty-art/lib/ant.jar", "/Users/trival/projects/personal/dotty-art/lib/ant-launcher.jar", "/Users/trival/projects/personal/dotty-art/lib/apple.jar", "/Users/trival/projects/personal/dotty-art/lib/core.jar", "/Users/trival/projects/personal/dotty-art/lib/jna.jar", "/Users/trival/projects/personal/dotty-art/lib/pde.jar", "/Users/trival/projects/personal/dotty-art/lib/jna-platform.jar", "/Users/trival/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/epfl/lamp/dotty-library_0.24/0.24.0-RC1/dotty-library_0.24-0.24.0-RC1.jar", "/Users/trival/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.2/scala-library-2.13.2.jar" ],
+  "classDirectory" : "/Users/trival/projects/personal/dotty-art/target/scala-0.24/classes",
+  "projectDependencies" : [ ]
+}, {
+  "id" : "root/test",
+  "compilerVersion" : "0.24.0-RC1",
+  "compilerArguments" : [ ],
+  "sourceDirectories" : [ "/Users/trival/projects/personal/dotty-art/src/test/scala-0.24", "/Users/trival/projects/personal/dotty-art/src/test/scala", "/Users/trival/projects/personal/dotty-art/src/test/java", "/Users/trival/projects/personal/dotty-art/target/scala-0.24/src_managed/test" ],
+  "dependencyClasspath" : [ "/Users/trival/projects/personal/dotty-art/target/scala-0.24/classes", "/Users/trival/projects/personal/dotty-art/lib/ant.jar", "/Users/trival/projects/personal/dotty-art/lib/ant-launcher.jar", "/Users/trival/projects/personal/dotty-art/lib/apple.jar", "/Users/trival/projects/personal/dotty-art/lib/core.jar", "/Users/trival/projects/personal/dotty-art/lib/jna.jar", "/Users/trival/projects/personal/dotty-art/lib/pde.jar", "/Users/trival/projects/personal/dotty-art/lib/jna-platform.jar", "/Users/trival/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/epfl/lamp/dotty-library_0.24/0.24.0-RC1/dotty-library_0.24-0.24.0-RC1.jar", "/Users/trival/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.2/scala-library-2.13.2.jar" ],
+  "classDirectory" : "/Users/trival/projects/personal/dotty-art/target/scala-0.24/test-classes",
+  "projectDependencies" : [ "root/compile" ]
+} ]
