@@ -1,6 +1,6 @@
 ## Dotty test using Processing. 
 
-Using Processing 3.5.4 jars. Requires Java8.
+Currently using Processing 3.5.4 jars. Requires Java8.
 
 ### Usage
 
