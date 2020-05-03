@@ -1,18 +1,23 @@
 import processing.core.PApplet
+import scala.language.implicitConversions
+
+val screenWidth = 1024
+val screenHeight = 768
 
 class ProcessingTest extends PApplet:
   override def settings =
-    size(1024, 768)
+    size(screenWidth, screenHeight)
   
-  override def setup =
-    background(255)
+  override def setup: Unit = 
+    background(0)
   
   override def draw =
-    color(255, 255, 55, 1)
-    rect(0, 0, 1024, 768)
-    color(25)
-    circle(mouseX.toFloat, mouseY.toFloat, 10)
+    stroke(0, 0, 0, 0)
+    fill(255, 255, 255, 1)
+    rect(0, 0, screenWidth, screenHeight)
+    fill(0)
+    circle(mouseX.toFloat, mouseY.toFloat, 20)
 
+// Main function
 
-object ProcessingTest extends App:
-  PApplet.main("ProcessingTest")
+@main def main() = PApplet.main("ProcessingTest")
